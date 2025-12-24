@@ -12,9 +12,9 @@ lr.fit(X,y)
 
 #plotting the scatter graph
 
-# plt.scatter(X, y, color = 'red')
-# plt.plot(X, lr.predict(X))
-# plt.show()
+plt.scatter(X, y, color = 'red')
+plt.plot(X, lr.predict(X))
+plt.show()
 
 # applying polynomial regression 
 
@@ -30,9 +30,9 @@ lr2.fit(X_poly, y)
 
 # visualising polynomial regression
 
-# plt.scatter(X,y, color = 'red')
-# plt.plot(X, lr2.predict(X_poly), linestyle = '--')
-# plt.show()
+plt.scatter(X,y, color = 'red')
+plt.plot(X, lr2.predict(X_poly), linestyle = '--')
+plt.show()
 
 # predicting results with polynomial regression
 
