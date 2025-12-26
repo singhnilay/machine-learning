@@ -1,11 +1,15 @@
 import numpy as np
 
-class gradient:
-    def __init__(self, x, y, w, b):
-        x.self = np.array(x)
-        y.self = np.array(y)
-        w.self = w
-        b.self = b
-
-    def compute_gradient(self):
+class GradientCalculator:
+    def __init__(self):
         pass
+
+    def compute_gradient(self, X, y_predict, y):
+        m = len(y_predict)
+
+        djdw = np.dot(X.T, (y_predict-y))/ m
+
+        djdb = np.sum(y_predict - y) / m
+
+
+        return djdw, djdb

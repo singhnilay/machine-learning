@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
-
 def compute_cost(x, y, w, b):
     total_cost = 0
     m = len(x)
