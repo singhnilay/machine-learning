@@ -31,7 +31,7 @@ Each part is written in a separate file, similar to how real-world ML frameworks
 
 Earlier, I thought linear regression was just:
 
-y = wx + 
+y = wx + b
 
 
 But through this project, I learned that linear regression is actually a **system** that includes:
